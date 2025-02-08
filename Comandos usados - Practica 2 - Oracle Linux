@@ -19,16 +19,11 @@ PARA GUARDAR
 
 ** :WQ
 ---------------------------
-ESTOS SE USAN IGUAL 
-PARA SALIR SIN GUARDAR 
-**:Q
-PARA FORZAR LA SALIDA 
-**:Q!
 
 TAREA PROGRAMADAS CON "AT"
 COMANDOS UTILIZADOS:
 
-** SYSTEMCTL STATUS ATD ** - PARA VER SI ESTÁ ACTIVO EL SERVICIO
+** systemctl status atd ** - PARA VER SI ESTÁ ACTIVO EL SERVICIO
 ** sudo at now + 1 minute 
 ** > sudo reboot
 ** > (Presionamos ctrl + D) Para guardar la tarea.
