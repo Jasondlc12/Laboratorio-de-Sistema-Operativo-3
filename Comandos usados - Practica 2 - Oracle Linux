@@ -1,0 +1,35 @@
+COMANDOS USADOS PARA REALIZAR LOS TRABAJOS O TAREAS PROGRAMADAS
+
+EN EL PRIMER MANDATOS NOS DECIA QUE DEBEMOS REALIZAR UNA TAREA QUE ACTUALICE EL SO A LAS 11
+
+COMANDOS USADOS:
+** CRONTAB -E
+** 0 23 * * * SUDO DNF-Y UPDATE
+
+PARA EL REINICIO A LAS 3 AM
+USAMOS: 
+** CRONTAB -E 
+** 0 3 * * 0 SUDO REBOOT
+
+OTROS ADICIONALES
+
+CRONTAB -R PARA ELIMINAR
+CRONTAB -L PARA VER LAS TAREAS YA CREADAS
+PARA GUARDAR 
+
+** :WQ
+---------------------------
+ESTOS SE USAN IGUAL 
+PARA SALIR SIN GUARDAR 
+**:Q
+PARA FORZAR LA SALIDA 
+**:Q!
+
+TAREA PROGRAMADAS CON "AT"
+COMANDOS UTILIZADOS:
+
+** SYSTEMCTL STATUS ATD ** - PARA VER SI ESTÁ ACTIVO EL SERVICIO
+** sudo at now + 1 minute 
+** > sudo reboot
+** > (Presionamos ctrl + D) Para guardar la tarea.
+** Date ---> este comando lo usamos para ver el tiempo y así llevar el conteo en caso de que realicen el mismo ejercicio que yo en el video.
