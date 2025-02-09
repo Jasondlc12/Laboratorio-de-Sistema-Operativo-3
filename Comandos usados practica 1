@@ -1,4 +1,4 @@
-
+BY : YEISON DE LA CRUZ - MATRICULA: 20241190
   sudo dnf update -y
   sudo dnf upgrade -y
   sudo dnf repolist all
