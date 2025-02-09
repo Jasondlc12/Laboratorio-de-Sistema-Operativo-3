@@ -1,0 +1,25 @@
+
+  sudo dnf update -y
+  sudo dnf upgrade -y
+  sudo dnf repolist all
+  sudo yum search Bashtop
+  sudo dnf install -y epel-release
+  sudo dnf install -y bashtop
+  sudo yum install bashtop
+  sudo make install
+  sudo dnf search bashtop
+  sudo make install
+  sudo dnf install -y bashtop
+  sudo dnf install -y oracle-epel-release-el9
+  sudo dnf install -y oracle-epel-release-el9
+  sudo dnf update -y
+  sudo dnf install -y bashtop
+  sudo dnf install -y snapd
+  sudo systemctl snable --now snapd.socket
+  sudo ln -s /var/lib/snapd/snap
+  sudo snap install bashtop
+  sudo dnf install -y git make gcc
+  sudo make install
+  sudo dnf autoremove -y
+  sudo dnf clean all
+  sudo rm -r /usr/local/bin/bashtop
